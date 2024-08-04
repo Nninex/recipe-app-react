@@ -1,0 +1,63 @@
+.recipe-detail {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .recipe-detail h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .recipe-detail img {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    border-radius: 8px;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  
+  .recipe-detail h3 {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    color: #007bff;
+  }
+  
+  .recipe-detail ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .recipe-detail ul ul {
+    margin-bottom: 10px;
+  }
+  
+  .recipe-detail p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555;
+  }
+  
+  .recipe-detail button {
+    padding: 12px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .recipe-detail button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+  
